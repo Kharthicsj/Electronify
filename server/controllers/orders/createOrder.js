@@ -1,6 +1,9 @@
 import paypal from "../../utils/paypal.js";
 import Order from "../../models/Orders.js";
 
+import dotenv from "dotenv"
+dotenv.config()
+
 export const createOrder = async (req, res) => {
     try {
         const { userId } = req.userData
@@ -23,8 +26,8 @@ export const createOrder = async (req, res) => {
                 payment_method: "paypal",
             },
             redirect_urls: {
-                return_url: "http://localhost:5173/paypal-return",
-                cancel_url: "http://localhost:5173/paypal-cancel",
+                return_url: `${process.env.CLIENT_URL}/paypal-return`,
+                cancel_url: `${process.env.CLIENT_URL}/paypal-cancel`,
             },
             transactions: [
                 {
