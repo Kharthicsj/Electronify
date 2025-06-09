@@ -106,9 +106,9 @@ function ProductDisplayCard() {
 
               <div className="text-2xl font-semibold text-gray-800 flex gap-4 items-baseline">
                 <span className="line-through text-gray-400 text-xl">
-                  ₹{productData.price}
+                  ${productData.price}
                 </span>
-                <span className="text-green-600">₹{productData.sellingPrice}</span>
+                <span className="text-green-600">${productData.sellingPrice}</span>
               </div>
 
               <div>
