@@ -28,7 +28,7 @@ const InputBox = (props) => {
             </label>
             <div className="relative">
                 <input
-                    type={props.type}
+                    type={showPassword}
                     value={props.value}
                     placeholder={props.placeholder}
                     className={`bg-gray-100 border-2 w-xs h-12 rounded-xl text-left p-4 ${
