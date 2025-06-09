@@ -78,7 +78,7 @@ const login = () => {
 
     return (
         <div className="md:grid grid-cols-2">
-            <div className="bg-black w-full h-screen justify-items-center content-center">
+            <div className="hidden md:block bg-black w-full h-screen justify-items-center content-center">
                 <div className="text-white text-9xl flex flex-col justify-center">
                     <DiMagento />
                     <p className="text-2xl text-center">Electronify</p>
