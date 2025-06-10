@@ -98,7 +98,7 @@ Electronify is an open-source eCommerce web template that acts as a solid founda
   /models        # Mongoose models
   /routes        # API routes
   /middleware    # Authentication and error handling
-  /config        # Configuration files
+  /utils        # Util files
 ```
 
 ---
@@ -119,7 +119,7 @@ Electronify is an open-source eCommerce web template that acts as a solid founda
    git clone https://github.com/Kharthicsj/Electronify.git
    ```
 
-2. Follow the [Installation](#installation) steps to set up the project locally.
+2. Follow the [Installation] steps to set up the project locally.
 
 3. Explore the project structure and start building your own eCommerce application!
 
@@ -128,12 +128,6 @@ Electronify is an open-source eCommerce web template that acts as a solid founda
 ## 🤝 Contributing
 
 Contributions are welcome! Please fork the repository, create a new branch, and submit a pull request with your proposed changes.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
 
 ---
 
